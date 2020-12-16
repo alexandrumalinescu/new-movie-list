@@ -4,10 +4,23 @@ body {
 }
 
 .movie-app > .row {
-  overflow: auto;
+  overflow-x: auto;
   flex-wrap: nowrap;
-  width: 100vw;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar{
+  background-color: #141414;
   
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, rgb(66, 66, 66));
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent, rgb(90, 233, 173));
 }
 
 
