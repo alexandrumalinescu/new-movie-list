@@ -15,12 +15,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(transparent, rgb(66, 66, 66));
+  background: linear-gradient(transparent, rgb(131, 128, 128));
   border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover{
-  background: linear-gradient(transparent, rgb(90, 233, 173));
+  background: linear-gradient(transparent, rgb(67, 78, 74));
 }
 
 
