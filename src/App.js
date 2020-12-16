@@ -51,7 +51,7 @@ const App = ()=>{
   return(
     <div className='container-fluid movie-app'>
       <div className='row d-flex align-items-center mt-4 mb-4 mr-3'>
-        <MovieListHeading heading='Movies'/>
+        <MovieListHeading heading='Movies-List'/>
         <SearchBox searchValue={searchValue} setSearchValue={setSearchValue}/>
       </div>
       <div className='row'>
