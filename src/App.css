@@ -54,3 +54,18 @@ body {
   padding: 20px;
   text-align: center;
 }
+
+
+input[type='radio'] {
+  display: none;
+}
+
+.star {
+  cursor: pointer;
+  color: #ffb400;
+  
+}
+.regularStar {
+  cursor: pointer;
+}
+
